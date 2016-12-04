@@ -26,11 +26,11 @@ public class MyControllerTest {
 //      userService = (IUserService) ac.getBean("userService");  
 //  }  
   
-//    @Test  
-//    public void test1() {  
-//        Food food = foodService.selectByPrimaryKey(1);  
-//        // System.out.println(user.getUserName());  
-//        // logger.info("值："+user.getUserName());  
-//        logger.info(JSON.toJSONString(food));  
-//    } 
+    @Test  
+    public void test1() {  
+        Food food = foodService.selectByPrimaryKey(1);  
+        // System.out.println(user.getUserName());  
+        // logger.info("值："+user.getUserName());  
+        logger.info(JSON.toJSONString(food));  
+    } 
 }

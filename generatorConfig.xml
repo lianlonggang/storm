@@ -3,7 +3,7 @@
 <generatorConfiguration>
 	<!-- 数据库驱动包位置 -->
 	<classPathEntry
-		location="G:\mavenWorkSpace\generator\mysql-connector-java-5.1.34.jar" />
+		location="G:\workspace-neon\mysql-connector-java-5.1.34.jar" />
 	<!-- <classPathEntry location="C:\oracle\product\10.2.0\db_1\jdbc\lib\ojdbc14.jar" 
 		/> -->
 	<context id="DB2Tables" targetRuntime="MyBatis3">
